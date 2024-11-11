@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORM</title>
+</head>
+<body>
+    <form action="/submit-form" method="POST">
+        <!-- Email Field -->
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required><br><br>
+    
+        <!-- Gender Radio Buttons -->
+        <label>Gender:</label><br>
+        <input type="radio" id="gender-male" name="gender" value="male">
+        <label for="gender-male">Male</label><br>
+        <input type="radio" id="gender-female" name="gender" value="female">
+        <label for="gender-female">Female</label><br><br>
+    
+        <!-- Contact Preferences (Checkbox) -->
+        <label>Contact Preferences:</label><br>
+        <input type="checkbox" id="contact-email" name="contact-preference" value="email">
+        <label for="contact-email">Email</label><br>
+        <input type="checkbox" id="contact-phone" name="contact-preference" value="phone">
+        <label for="contact-phone">Phone</label><br>
+        <input type="checkbox" id="contact-post" name="contact-preference" value="post">
+        <label for="contact-post">Post</label><br><br>
+    
+        <button type="submit">Submit</button>
+    </form>
+
+
+
+</body>
+</html>
